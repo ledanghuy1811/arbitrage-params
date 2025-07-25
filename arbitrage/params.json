@@ -1,0 +1,42 @@
+[
+  {
+    "sourceChain": {
+      "baseToken": {
+        "address": "oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h",
+        "decimals": 6,
+        "chainId": "Solana",
+        "symbol": "MAX"
+      },
+      "quoteToken": {
+        "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "decimals": 6,
+        "chainId": "Solana",
+        "symbol": "USDT"
+      },
+      "namespace": "Raydium__MAXUSDTTuple",
+      "type": "Raydium",
+      "slippage": 0.01
+    },
+    "destChain": {
+      "baseToken": {
+        "address": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/oraim8c9d1nkfuQk9EzGYEUGxqL3MHQYndRw1huVo5h",
+        "decimals": 6,
+        "chainId": "Oraichain",
+        "symbol": "MAX"
+      },
+      "quoteToken": {
+        "address": "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh",
+        "decimals": 6,
+        "chainId": "Oraichain",
+        "symbol": "USDT"
+      },
+      "namespace": "Oraidex__MAXUSDTTuple",
+      "type": "Oraidex",
+      "slippage": 0.01
+    },
+    "minimumProfit": 0.3,
+    "isBuy": true,
+    "volume": 20,
+    "snapshotTotalReserve": 200000
+  }
+]
